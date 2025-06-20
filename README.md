@@ -1,16 +1,38 @@
-<<<<<<< HEAD
-# Ai-code-reviewer
-=======
-# React + Vite
+# 🤖 AI Code Reviewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intelligent code review tool powered by **Gemini AI**. Simply paste your code, click a button, and get smart code review suggestions instantly.
 
-Currently, two official plugins are available:
+![AI Code Reviewer Banner](./screenshots/homepage.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 0d2eb03 (first commit done)
+- **Frontend:** [https://ai-code-reviewer.vercel.app](https://ai-code-reviewer.vercel.app)
+- **Backend:** [https://ai-code-review-backend-1.onrender.com](https://ai-code-review-backend-1.onrender.com)
+
+---
+
+## ✨ Features
+
+- 🧠 Code analysis powered by Google Gemini AI
+- ⚡ Instant response to code snippets
+- 💻 Simple and elegant user interface with React + Tailwind CSS
+- 🔗 Seamless integration between frontend and backend
+- 📦 Fully deployed using **Vercel** and **Render**
+
+---
+
+## 🛠 Tech Stack
+
+| Layer     | Technology                   |
+|-----------|------------------------------|
+| Frontend  | React, Tailwind CSS, Axios   |
+| Backend   | Node.js, Express.js, dotenv  |
+| AI        | Gemini API                   |
+| Deploy    | Vercel (frontend), Render (backend) |
+
+---
+
+## 📁 Folder Structure
+
