@@ -10,7 +10,7 @@ An intelligent code review tool powered by **Gemini AI**. Simply paste your code
 
 ## 🚀 Live Demo
 
-- **Frontend:** [https://ai-code-reviewer.vercel.app](https://ai-code-reviewer.vercel.app)
+- **Frontend:** [https://ai-code-reviewer.vercel.app](https://ai-code-reviewer-ixuysp7om-harshit-shuklas-projects-611efaf2.vercel.app/)
 - **Backend:** [https://ai-code-review-backend-1.onrender.com](https://ai-code-review-backend-1.onrender.com)
 
 ---
