@@ -2,7 +2,7 @@
 
 An intelligent code review tool powered by **Gemini AI**. Simply paste your code, click a button, and get smart code review suggestions instantly.
 
-![AI Code Reviewer Banner](./screenshots/homepage.png)
+![AI Code Reviewer Banner]([./screenshots/homepage.png](https://github.com/Harshit9026/Ai-code-reviewer/blob/main/src/assets/ai-app1.png))
 
 ---
 
