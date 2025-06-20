@@ -1,0 +1,82 @@
+Landing.css
+body {
+  margin: 0;
+  font-family: 'Fira Code', monospace;
+  background: linear-gradient(135deg, #1f1f3f, #0c0c20);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  width: 100%;
+  background-color: rgba(20, 20, 40, 0.8);
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.content h1 {
+  font-size: 3.5rem;
+  background: linear-gradient(90deg, #7f5af0, #00c896);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.3rem;
+  color: #ccc;
+  margin-bottom: 2.5rem;
+  line-height: 1.7;
+}
+
+.start-btn {
+  background: linear-gradient(90deg, #7f5af0, #00c896);
+  border: none;
+  padding: 0.8rem 2.5rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(127, 90, 240, 0.3);
+}
+
+.start-btn:hover {
+  background: linear-gradient(90deg, #6246ea, #00a37e);
+  transform: scale(1.06);
+  box-shadow: 0 6px 20px rgba(127, 90, 240, 0.5);
+}
+
+.code-sample {
+  margin-top: 3rem;
+  text-align: left;
+  background-color: #2a2a40;
+  padding: 1.5rem;
+  border-radius: 12px;
+  color: #d4d4d4;
+  font-size: 1rem;
+  line-height: 1.6;
+  overflow-x: auto;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  font-family: 'Fira Code', monospace;
+  width: 100%;
+}

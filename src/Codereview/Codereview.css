@@ -1,0 +1,142 @@
+
+/* Reset & base layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  font-family: "Fira Code", monospace;
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+/* Layout setup */
+main {
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Left: Editor section */
+main .left {
+  flex-basis: 50%;
+  height: 100%;
+  position: relative;
+  border-radius: 0.7rem;
+  background-color: #000;
+  padding: 1rem;
+  border: 1px solid #2a2a2a;
+}
+
+/* Editor wrapper — no dark block effect */
+.code-editor-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Placeholder */
+.editor-placeholder {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #888;
+  font-size: 16px;
+  white-space: pre-wrap;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  font-family: "Fira Code", monospace;
+}
+
+/* Review button restored: bottom-right floating */
+.review {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: rgb(219, 219, 255);
+  color: #000000;
+  padding: 0.5rem 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0.7rem;
+  z-index: 2;
+}
+
+/* Right: Markdown output */
+main .right {
+  flex-basis: 50%;
+  height: 100%;
+  background-color: #1f1f1f;
+  padding: 1.5rem 2rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  overflow-y: auto;
+  border: 1px solid #2e2e2e;
+}
+
+/* Code blocks in Markdown */
+.right pre {
+  background-color: #2a2a2a;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+
+/* Loader animation */
+.loader {
+  color: #ccc;
+  font-style: italic;
+  padding: 2rem;
+  font-size: 1.2rem;
+  animation: pulse 1s infinite ease-in-out;
+  text-align: center;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.4; }
+  50% { opacity: 1; }
+  100% { opacity: 0.4; }
+}
+
+/* Top-right button container */
+.back-button-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+}
+
+/* Floating button (top-right) */
+.back-button {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  background-color: #00bfff;
+  color: #000;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 9999;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.back-button:hover {
+  background-color: #00a6cc;
+}
+
+/* Add spacing at the top of main so it doesn't get hidden under button */
+main {
+  padding-top: 4rem;
+}
+
